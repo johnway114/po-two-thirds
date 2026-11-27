@@ -2,6 +2,8 @@
 
 **The unrestricted question remains open in the sources checked.** When goods are indivisible and everyone values every good positively, can we always allocate them so that nobody can be made better off without hurting someone, and everyone values their share at least two-thirds as much as any other share after *any* one good is removed? [Definitions and sources](SOURCES.md).
 
+A short unrefereed research note, with the archived receipts, reproduction instructions and limitations, is in [NOTE.md](NOTE.md).
+
 [Mahabadi, Ramakrishnan and Tarnawski](https://arxiv.org/pdf/2610.29201v2) constructed a family that rules out every larger universal factor. We found where that construction stops and which changes cannot push it further:
 
 | Valuations (four agents, nine goods) | Supported conclusion |
@@ -25,3 +27,5 @@ PYTHONPATH=econ-lab/src python3 -m econ_lab verify po-two-thirds/check.py
 ```
 
 Only the Python standard library is needed. The [checker](check.py) works with integer coefficients of inequalities over real intervals, not a grid of floating-point values. It enumerates whole-good reassignments, including empty bundles, and records a witness for each of 255 off-center cases in [RECEIPT.json](RECEIPT.json). Its upper-bound check independently covers all 262,144 center assignments for the entire parameter range. These are local, unrefereed results, not a claim of priority or outside confirmation.
+
+Credit: source construction and the exclusion of every factor strictly above two-thirds belong to the cited authors. Local research, code and audit used an OpenAI GPT-6.2 Astra (Codex) lead, with configured Claude research and audit roles. This repository accompanies the unrefereed note [NOTE.md](NOTE.md).
