@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "timestamp_utc": "2026-11-27T14:19:58.188232+00:00",
+  "script": "incidence.py",
+  "script_sha256": "96f8db5f201bce81d74ff78ec71fc3da4c7f8e8a153c7adfd6177022944ae476",
+  "args": [],
+  "exit_code": 0,
+  "passed": true,
+  "runtime_seconds": 0.0571,
+  "python_version": "3.14.7",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "git_commit": null,
+  "stdout": "{\"row_choices_examined\": 10000, \"in_scope\": 4650, \"orbits\": 14, \"classes\": {\"12333_full\": 2160, \"22224_full\": 330, \"22224_square\": 120, \"22233_full\": 2040}, \"certificates\": [{\"signature\": \"12333\", \"medium_high_valuer_masks\": [1, 3, 13, 14, 14], \"labelled_count\": 480, \"kind\": \"full\", \"bundles\": [\"abcp\", \"deq\", \"x\", \"y\"]}, {\"signature\": \"12333\", \"medium_high_valuer_masks\": [1, 5, 11, 14, 14], \"labelled_count\": 240, \"kind\": \"full\", \"bundles\": [\"abcp\", \"deq\", \"x\", \"y\"]}, {\"signature\": \"12333\", \"medium_high_valuer_masks\": [1, 6, 11, 13, 14], \"labelled_count\": 960, \"kind\": \"full\", \"bundles\": [\"acdp\", \"beq\", \"x\", \"y\"]}, {\"signature\": \"12333\", \"medium_high_valuer_masks\": [1, 7, 10, 13, 14], \"labelled_count\": 480, \"kind\": \"full\", \"bundles\": [\"abdp\", \"ceq\", \"x\", \"y\"]}, {\"signature\": \"22224\", \"medium_high_valuer_masks\": [3, 3, 12, 12, 15], \"labelled_count\": 60, \"kind\": \"full\", \"bundles\": [\"abep\", \"y\", \"x\", \"cdq\"]}, {\"signature\": \"22233\", \"medium_high_valuer_masks\": [3, 3, 12, 13, 14], \"labelled_count\": 240, \"kind\": \"full\", \"bundles\": [\"abdp\", \"y\", \"x\", \"ceq\"]}, {\"signature\": \"22233\", \"medium_high_valuer_masks\": [3, 5, 9, 14, 14], \"labelled_count\": 240, \"kind\": \"full\", \"bundles\": [\"abcp\", \"deq\", \"x\", \"y\"]}, {\"signature\": \"22224\", \"medium_high_valuer_masks\": [3, 5, 10, 12, 15], \"labelled_count\": 240, \"kind\": \"full\", \"bundles\": [\"abep\", \"y\", \"x\", \"cdq\"]}, {\"signature\": \"22233\", \"medium_high_valuer_masks\": [3, 5, 10, 13, 14], \"labelled_count\": 480, \"kind\": \"full\", \"bundles\": [\"abdp\", \"ceq\", \"x\", \"y\"]}, {\"signature\": \"22233\", \"medium_high_valuer_masks\": [3, 5, 11, 12, 14], \"labelled_count\": 480, \"kind\": \"full\", \"bundles\": [\"abcp\", \"y\", \"x\", \"deq\"]}, {\"signature\": \"22224\", \"medium_high_valuer_masks\": [3, 6, 9, 12, 15], \"labelled_count\": 120, \"kind\": \"square\", \"bundles\": [\"xa\", \"y\", \"bdpq\", \"ce\"]}, {\"signature\": \"22233\", \"medium_high_valuer_masks\": [3, 6, 9, 13, 14], \"labelled_count\": 480, \"kind\": \"full\", \"bundles\": [\"acdp\", \"beq\", \"x\", \"y\"]}, {\"signature\": \"22224\", \"medium_high_valuer_masks\": [5, 5, 10, 10, 15], \"labelled_count\": 30, \"kind\": \"full\", \"bundles\": [\"abep\", \"cdq\", \"x\", \"y\"]}, {\"signature\": \"22233\", \"medium_high_valuer_masks\": [5, 5, 10, 11, 14], \"labelled_count\": 120, \"kind\": \"full\", \"bundles\": [\"abdp\", \"ceq\", \"x\", \"y\"]}]}",
+  "stderr": "",
+  "parsed_output": {
+    "row_choices_examined": 10000,
+    "in_scope": 4650,
+    "orbits": 14,
+    "classes": {
+      "12333_full": 2160,
+      "22224_full": 330,
+      "22224_square": 120,
+      "22233_full": 2040
+    },
+    "certificates": [
+      {
+        "signature": "12333",
+        "medium_high_valuer_masks": [
+          1,
+          3,
+          13,
+          14,
+          14
+        ],
+        "labelled_count": 480,
+        "kind": "full",
+        "bundles": [
+          "abcp",
+          "deq",
+          "x",
+          "y"
+        ]
+      },
+      {
+        "signature": "12333",
+        "medium_high_valuer_masks": [
+          1,
+          5,
+          11,
+          14,
+          14
+        ],
+        "labelled_count": 240,
+        "kind": "full",
+        "bundles": [
+          "abcp",
+          "deq",
+          "x",
+          "y"
+        ]
+      },
+      {
+        "signature": "12333",
+        "medium_high_valuer_masks": [
+          1,
+          6,
+          11,
+          13,
+          14
+        ],
+        "labelled_count": 960,
+        "kind": "full",
+        "bundles": [
+          "acdp",
+          "beq",
+          "x",
+          "y"
+        ]
+      },
+      {
+        "signature": "12333",
+        "medium_high_valuer_masks": [
+          1,
+          7,
+          10,
+          13,
+          14
+        ],
+        "labelled_count": 480,
+        "kind": "full",
+        "bundles": [
+          "abdp",
+          "ceq",
+          "x",
+          "y"
+        ]
+      },
+      {
+        "signature": "22224",
+        "medium_high_valuer_masks": [
+          3,
+          3,
+          12,
+          12,
+          15
+        ],
+        "labelled_count": 60,
+        "kind": "full",
+        "bundles": [
+          "abep",
+          "y",
+          "x",
+          "cdq"
+        ]
+      },
+      {
+        "signature": "22233",
+        "medium_high_valuer_masks": [
+          3,
+          3,
+          12,
+          13,
+          14
+        ],
+        "labelled_count": 240,
+        "kind": "full",
+        "bundles": [
+          "abdp",
+          "y",
+          "x",
+          "ceq"
+        ]
+      },
+      {
+        "signature": "22233",
+        "medium_high_valuer_masks": [
+          3,
+          5,
+          9,
+          14,
+          14
+        ],
+        "labelled_count": 240,
+        "kind": "full",
+        "bundles": [
+          "abcp",
+          "deq",
+          "x",
+          "y"
+        ]
+      },
+      {
+        "signature": "22224",
+        "medium_high_valuer_masks": [
+          3,
+          5,
+          10,
+          12,
+          15
+        ],
+        "labelled_count": 240,
+        "kind": "full",
+        "bundles": [
+          "abep",
+          "y",
+          "x",
+          "cdq"
+        ]
+      },
+      {
+        "signature": "22233",
+        "medium_high_valuer_masks": [
+          3,
+          5,
+          10,
+          13,
+          14
+        ],
+        "labelled_count": 480,
+        "kind": "full",
+        "bundles": [
+          "abdp",
+          "ceq",
+          "x",
+          "y"
+        ]
+      },
+      {
+        "signature": "22233",
+        "medium_high_valuer_masks": [
+          3,
+          5,
+          11,
+          12,
+          14
+        ],
+        "labelled_count": 480,
+        "kind": "full",
+        "bundles": [
+          "abcp",
+          "y",
+          "x",
+          "deq"
+        ]
+      },
+      {
+        "signature": "22224",
+        "medium_high_valuer_masks": [
+          3,
+          6,
+          9,
+          12,
+          15
+        ],
+        "labelled_count": 120,
+        "kind": "square",
+        "bundles": [
+          "xa",
+          "y",
+          "bdpq",
+          "ce"
+        ]
+      },
+      {
+        "signature": "22233",
+        "medium_high_valuer_masks": [
+          3,
+          6,
+          9,
+          13,
+          14
+        ],
+        "labelled_count": 480,
+        "kind": "full",
+        "bundles": [
+          "acdp",
+          "beq",
+          "x",
+          "y"
+        ]
+      },
+      {
+        "signature": "22224",
+        "medium_high_valuer_masks": [
+          5,
+          5,
+          10,
+          10,
+          15
+        ],
+        "labelled_count": 30,
+        "kind": "full",
+        "bundles": [
+          "abep",
+          "cdq",
+          "x",
+          "y"
+        ]
+      },
+      {
+        "signature": "22233",
+        "medium_high_valuer_masks": [
+          5,
+          5,
+          10,
+          11,
+          14
+        ],
+        "labelled_count": 120,
+        "kind": "full",
+        "bundles": [
+          "abdp",
+          "ceq",
+          "x",
+          "y"
+        ]
+      }
+    ]
+  }
+}

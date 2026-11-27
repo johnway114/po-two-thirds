@@ -1,0 +1,10 @@
+.venv/
+.campaign/
+__pycache__/
+*.pyc
+*.dylib
+*.so
+*.o
+.pytest_cache/
+.DS_Store
+*.tmp
